@@ -1,0 +1,18 @@
+.spending {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.spending h1 {
+  font-size: 1.6rem;
+  padding: .5rem 0;
+  color: #382314;
+}
+
+.spending hr {
+  border: 0;
+  height: 2px;
+  background: #f8e9dd;
+}
+/*# sourceMappingURL=Spending.module.css.map */

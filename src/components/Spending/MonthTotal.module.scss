@@ -1,0 +1,35 @@
+@import "../../variables.scss";
+.month-total{
+    // padding: 1rem 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .left{
+        p:first-of-type{
+            color: $mediumBrown;
+            font-size: 1rem;
+            margin-bottom: .25rem;
+        }
+        p:nth-of-type(2){
+            color: $darkBrown;
+            font-weight: 700;
+            font-size: 2rem;
+        }
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        font-size: 1rem;
+        p:first-of-type{
+            font-weight: 700;
+            color: $darkBrown;
+        }
+        p:nth-of-type(2){
+            color: $mediumBrown;
+        }
+    }
+}

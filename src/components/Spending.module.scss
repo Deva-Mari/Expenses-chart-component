@@ -1,0 +1,17 @@
+@import "../variables.scss";
+
+.spending{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    h1{
+        font-size: 1.6rem;
+        padding: .5rem 0;
+        color: $darkBrown;
+    }
+    hr{
+        border: 0;
+        height: 2px;
+        background: $cream;
+    }
+}

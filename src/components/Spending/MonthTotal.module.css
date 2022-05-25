@@ -1,0 +1,53 @@
+.month-total {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.month-total .left p:first-of-type {
+  color: #93867b;
+  font-size: 1rem;
+  margin-bottom: .25rem;
+}
+
+.month-total .left p:nth-of-type(2) {
+  color: #382314;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.month-total .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 1rem;
+}
+
+.month-total .right p:first-of-type {
+  font-weight: 700;
+  color: #382314;
+}
+
+.month-total .right p:nth-of-type(2) {
+  color: #93867b;
+}
+/*# sourceMappingURL=MonthTotal.module.css.map */

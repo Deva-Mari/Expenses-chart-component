@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAA;EACL,gBAAgB,EAAE,KAAK;EACvB,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,IAAI;CAWhB;;AAdD,AAII,SAJK,CAIL,EAAE,CAAA;EACE,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,OAAO;EAChB,KAAK,ECJD,OAAiB;CDKxB;;AARL,AASI,SATK,CASL,EAAE,CAAA;EACE,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,GAAG;EACX,UAAU,ECPV,OAAiB;CDQpB",
+    "sources": [
+        "Spending.module.scss",
+        "../variables.scss"
+    ],
+    "names": [],
+    "file": "Spending.module.css"
+}
