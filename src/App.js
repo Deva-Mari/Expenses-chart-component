@@ -1,8 +1,15 @@
+import Balance from "./components/Balance";
+import Spending from "./components/Spending";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div>
+      <Balance/>
+      <Spending/>
+      <Footer/>
 
-      My balance $921.48 Spending - Last 7 days mon tue wed thu fri sat sun
+      {/* My balance $921.48 Spending - Last 7 days mon tue wed thu fri sat sun
       Total this month $478.33 +2.4% from last month
       <div class="attribution">
         Challenge by{" "}
@@ -10,8 +17,8 @@ function App() {
           Frontend Mentor
         </a>
         . Coded by <a href="#">Your Name Here</a>.
-      </div>
-      
+      </div> */}
+
     </div>
   );
 }
