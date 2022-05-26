@@ -1,1 +1,51 @@
 @import "../../variables.scss";
+
+.chart {
+  // display: grid;
+  // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  // gap: .8rem;
+  // padding: 2rem .4rem;
+  // padding: 1rem 0;
+  padding-top: 0.3rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  .bar-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: calc(100% / 7);
+    cursor: pointer;
+    &:hover {
+      .bar-number {
+        opacity: 1;
+      }
+      .bar{
+          opacity: .7;
+      }
+    }
+    .bar-number {
+      background: $darkBrown;
+      color: $veryPaleOrange;
+      border-radius: 5px;
+      padding: 0.3rem;
+      font-size: 0.7rem;
+      opacity: 0;
+    }
+    .bar {
+      width: 75%;
+      height: 4rem;
+      background-color: $softRed;
+      border-radius: 5px;
+      margin: 0.4rem 0;
+    }
+    .selected {
+      background-color: $cyan;
+    }
+    .bar-label {
+      color: $mediumBrown;
+      font-size: 0.9rem;
+    }
+  }
+}
