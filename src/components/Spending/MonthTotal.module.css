@@ -51,7 +51,7 @@
   color: #93867b;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 480px) {
   .month-total {
     padding-top: 2rem;
   }
