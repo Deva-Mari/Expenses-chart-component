@@ -15,4 +15,13 @@
   height: 2px;
   background: #f8e9dd;
 }
+
+@media (min-width: 376px) {
+  .spending {
+    padding: 1.5rem;
+  }
+  .spending h1 {
+    font-size: 2rem;
+  }
+}
 /*# sourceMappingURL=Spending.module.css.map */

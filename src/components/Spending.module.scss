@@ -15,3 +15,12 @@
         background: $cream;
     }
 }
+
+@media (min-width: 376px) {
+    .spending{
+        padding: 1.5rem;
+        h1{
+            font-size: 2rem;
+        }
+    }
+}
